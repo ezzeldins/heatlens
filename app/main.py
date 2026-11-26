@@ -1,15 +1,3 @@
-"""HeatLens: a small local web app on top of the FortyGuard Temperature API.
-
-Only the heatmap endpoint is wired up (its request/response shape is known from a
-recorded example). Other endpoints (satellite, street view, environmental params,
-heat intelligence) are intentionally left for when their docs are available.
-
-Design notes
-- The API key never leaves the server and is never logged or stored.
-- Calls cost credits, so every request is hashed; an identical request is served
-  from disk (or re-attached to the in-flight job) instead of being paid for twice.
-- Results are keyed by a digest of the key + base URL, so a key only reads its own runs.
-"""
 from __future__ import annotations
 
 import hashlib
