@@ -2,6 +2,10 @@
 
 HeatLens is a local web app for exploring heatmap data from the FortyGuard Temperature API. It uses FastAPI for the backend and React for the map interface.
 
+## Project report
+
+Read the [project report](docs/project-report.md) for a summary of the development process and current scope.
+
 ## Dashboard
 
 ![HeatLens dashboard showing the map, selected area, and heatmap controls](screenshots/dashboard.png)
