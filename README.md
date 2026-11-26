@@ -16,6 +16,14 @@ Read the [project report](docs/project-report.md) for a summary of the developme
 - View completed results as a gradient or temperature bands.
 - Save results locally and compare runs.
 
+## FortyGuard MCP test
+
+I tested the FortyGuard Temperature MCP in Cursor with an `env_params` request for Phoenix, Arizona. The response included environmental conditions for the selected date and reported a cost of 2,900 credits on the Premium plan.
+
+This is evidence of the MCP response in the client, not an MCP integration in HeatLens or a view of the underlying tool-call trace. HeatLens currently connects to the FortyGuard REST API directly.
+
+![FortyGuard MCP response in Cursor showing Phoenix environmental conditions](screenshots/fortyguard-mcp-test.png)
+
 ## Run the app
 
 Create and activate a virtual environment, then install the Python dependencies:
