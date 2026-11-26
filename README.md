@@ -55,9 +55,3 @@ The development server runs at [http://localhost:5173](http://localhost:5173) an
 ```bash
 npm run build
 ```
-
-## Notes
-
-- Submitting a new heatmap may use API credits. Review the preview before submitting.
-- The API key is used by the backend and should not be committed or shared.
-- Run data is stored locally in `data/` by default.
